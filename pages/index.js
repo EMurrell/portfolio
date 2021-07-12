@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Head>
         <title>EMurrell.com</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/MFavIcon.jpg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -19,8 +19,6 @@ export default function Home() {
       </Head>
 
       <Main1 />
-
-      <Footer />
     </>
   );
 }
