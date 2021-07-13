@@ -5,11 +5,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        mygreen: "#3A6351",
-        myorange: "#E48257",
+        mygreen: "#346751",
+        myorange: "#E2654B",
         mybeige: "#F2EDD7",
         midtone: "#4C4343",
-        myblack: "#231F1F",
+        myblack: "#161616",
         myblue: "#9EBDD0",
       },
       keyframes: {
@@ -21,6 +21,17 @@ module.exports = {
           "100%": {
             opacity: "1",
             transform: "translateY(0)",
+          },
+        },
+
+        "fade-out-up": {
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0px)",
+          },
+          "0%": {
+            opacity: "0",
+            transform: "translateY(-50)",
           },
         },
 
@@ -46,7 +57,8 @@ module.exports = {
         },
       },
       animation: {
-        "fade-in-down": "fade-in-down 0.9s ease-out",
+        "fade-in-down": "fade-in-down 0.3s ease-out",
+        "fade-out-up": "fade-out-up 0.3s ease-out",
         "fade-in-right": "fade-in-right 0.9s ease-out",
         "fade-in-left": "fade-in-left 0.9s ease-out",
       },
@@ -57,7 +69,9 @@ module.exports = {
     },
   },
   variants: {
+    animation: ["motion-safe"],
+
     extend: {},
   },
-  plugins: [],
+  plugins: [require("tailwindcss-scroll-snap")],
 };
