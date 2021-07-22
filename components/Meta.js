@@ -9,7 +9,11 @@ export default function Meta() {
       <meta name="description" content="Eric Murrell Portfolio" />
       <link rel="icon" href="/MFavIcon.jpg" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+      <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossOrigin="true"
+      />
       <link
         href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap"
         rel="stylesheet"

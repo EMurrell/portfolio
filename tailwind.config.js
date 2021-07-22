@@ -16,7 +16,7 @@ module.exports = {
         "fade-in-down": {
           "0%": {
             opacity: "0",
-            transform: "translateY(-50px)",
+            transform: "translateY(150px)",
           },
           "100%": {
             opacity: "1",
@@ -24,21 +24,21 @@ module.exports = {
           },
         },
 
-        "fade-out-up": {
-          "100%": {
-            opacity: "1",
-            transform: "translateY(0px)",
-          },
+        "fade-in-up": {
           "0%": {
             opacity: "0",
-            transform: "translateY(-50)",
+            transform: "translateY(0px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(100)",
           },
         },
 
         "fade-in-right": {
           "0%": {
             opacity: "0",
-            transform: "translateX(-200px)",
+            transform: "translateX(-50px)",
           },
           "100%": {
             opacity: "1",
@@ -48,7 +48,7 @@ module.exports = {
         "fade-in-left": {
           "0%": {
             opacity: "0",
-            transform: "translateX(200px)",
+            transform: "translateX(50px)",
           },
           "100%": {
             opacity: "1",

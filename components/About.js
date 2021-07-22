@@ -1,17 +1,52 @@
-import FadeIn from "./FadeIn";
+import Link from "next/link";
 
 export default function About() {
   return (
-    <section
-      id="About"
-      className="flex flex-row h-screen pt-24 min-full bg-mybeige"
-    >
-      <div className="flex flex-col items-end justify-center w-2/5 bg-mybeige"></div>
+    <section id="About" className="flex flex-col w-full h-screen bg-mybeige">
+      <div className="flex flex-row h-1/2">
+        <div className="w-1/6 pt-24 border-r-2 border-myblack">
+          <p className="text-base font-extrabold tracking-wider -rotate-90 md:text-lg lg:text-xl text-myorange font-headline">
+            BIO
+          </p>
+        </div>
 
-      <div className="w-3/5 border-4 border-solid border-mybeige h-3/5 bg-myblack">
-        <h2 className="flex pt-40 pl-4 pr-1 text-lg text-mybeige md:text-2xl font-headline lg:text-4xl animate-fade-in-right">
-          My Name
-        </h2>
+        <div className="flex flex-col w-5/6 pr-12 md:pr-60">
+          <h2 className="pt-12 pb-2 pl-4 text-lg font-extrabold tracking-wide md:pt-28 font-headline md:text-2xl lg:text-3xl text-myorange">
+            HELLO
+          </h2>
+          <p className="pt-4 pl-4 text-sm font-extrabold tracking-wide font-body md:text-lg lg:text-xl text-midtone">
+            I AM A SELF-TAUGHT PROGRAMMER BASED IN CANADA. <br />
+          </p>
+          <p className="pt-4 pl-4 text-sm font-extrabold tracking-wide font-body md:text-lg lg:text-xl text-midtone">
+            MY PASSION IS DESIGNING AND DEVELOPING CLEAN, CRISP, RESPONSIVE UIs.
+          </p>
+        </div>
+      </div>
+
+      <div className="flex flex-row h-1/2">
+        <div className="w-1/6 pt-24 border-r-2 border-myblack">
+          <p className="text-base font-extrabold tracking-wider -rotate-90 md:text-lg lg:text-xl text-myorange font-headline">
+            SKILLS
+          </p>
+        </div>
+
+        <div className="flex flex-col w-5/6 pr-12 md:pr-60">
+          <p className="pt-2 pl-4 text-sm font-extrabold tracking-wide md:pt-8 font-body md:text-lg lg:text-xl text-midtone">
+            HTML \ CSS \ JAVASCRIPT
+          </p>
+          <p className="pt-4 pl-4 text-sm font-extrabold tracking-wide md:pt-6 font-body md:text-lg lg:text-xl text-midtone">
+            REACT \ NODE \ MONGO DB
+          </p>
+          <p className="pt-4 pl-4 text-sm font-extrabold tracking-wide md:pt-6 font-body md:text-lg lg:text-xl text-midtone">
+            NEXT.JS \ TAILWIND CSS \ FRAMER-MOTION
+          </p>
+          <p className="pt-4 pl-4 text-sm font-extrabold tracking-wide md:pt-6 font-body md:text-lg lg:text-xl text-midtone">
+            GITHUB \ VS CODE \ CLI
+          </p>
+          <p className="pt-4 pl-4 text-sm font-extrabold tracking-wide md:pt-6 font-body md:text-lg lg:text-xl text-midtone">
+            AFFINITY PHOTO \ PROCREATE
+          </p>
+        </div>
       </div>
     </section>
   );

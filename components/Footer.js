@@ -6,12 +6,14 @@ export default function Footer() {
   };
 
   return (
-    <footer className="flex items-center justify-center w-full h-24 bg-myblack">
-      <h3 className="text-xs text-center text-mybeige font-headline">
-        © {getCurrentYear()} EMurrell
+    <footer className="flex items-center justify-center w-full h-28 botton-0 bg-myblack">
+      <a
+        href="/#"
+        className="text-xs text-center text-mybeige font-headline hover:text-myorange"
+      >
+        © {getCurrentYear()} EMurrell.com
         <br />
-        All Rights Reserved
-      </h3>
+      </a>
     </footer>
   );
 }
