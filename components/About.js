@@ -12,7 +12,7 @@ export default function About() {
 
         <div className="flex flex-col w-5/6 pr-12 md:pr-60">
           <h2 className="pt-12 pb-2 pl-4 text-lg font-extrabold tracking-wide md:pt-28 font-headline md:text-2xl lg:text-3xl text-myorange">
-            HELLO
+            HELLO!
           </h2>
           <p className="pt-4 pl-4 text-sm font-extrabold tracking-wide font-body md:text-lg lg:text-xl text-midtone">
             I AM A SELF-TAUGHT PROGRAMMER BASED IN CANADA. <br />
