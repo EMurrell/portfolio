@@ -58,9 +58,9 @@ module.exports = {
       },
       animation: {
         "fade-in-down": "fade-in-down 0.3s ease-out",
-        "fade-out-up": "fade-out-up 0.3s ease-out",
-        "fade-in-right": "fade-in-right 0.9s ease-out",
-        "fade-in-left": "fade-in-left 0.9s ease-out",
+        "fade-in-up": "fade-out-up 0.3s ease-out",
+        "fade-in-right": "fade-in-right 0.5s ease-out",
+        "fade-in-left": "fade-in-left 0.5s ease-out",
       },
     },
     fontFamily: {
@@ -73,5 +73,4 @@ module.exports = {
 
     extend: {},
   },
-  plugins: [require("tailwindcss-scroll-snap")],
 };

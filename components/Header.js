@@ -32,6 +32,7 @@ export default function Main1() {
           <h1 className="flex pl-4 pr-4 text-xl md:text-4xl font-headline lg:text-5xl animate-fade-in-left text-mybeige">
             DEVELOPER
           </h1>
+
           {/* <h1 className="flex pl-4 pr-4 mt-12 text-xs font-extrabold tracking-widest hover:text-myblue md:text-lg font-headline lg:text-xl animate-fade-in-right text-myorange">
             &lt; ContactMe / &gt;
           </h1> */}
