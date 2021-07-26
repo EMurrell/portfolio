@@ -6,8 +6,13 @@ export default function Meta() {
       <title>EMurrell.com</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <meta name="description" content="Eric Murrell Portfolio" />
+      <meta
+        name="description"
+        content="Eric Murrell- Web Developer Portfolio"
+      />
+      <meta name="image" content="/metapic.jpg" />
       <link rel="icon" href="/em2.png" />
+
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
         rel="preconnect"

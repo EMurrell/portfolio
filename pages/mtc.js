@@ -27,7 +27,7 @@ export default function About() {
               <h2 className="pt-8 pb-2 pl-4 text-base font-extrabold tracking-wide md:pt-32 font-headline md:text-xl lg:text-2xl text-myblack">
                 MASON'S TOUCH CONSTRUCTION
               </h2>
-              <h3 className="pl-4 text-base font-bold tracking-wider md:text-xl text-myorange hover:text-myblue font-body">
+              <h3 className="pl-4 text-base font-bold tracking-wider underline transition duration-500 ease-in-out transform md:text-xl text-myorange hover:text-myblue font-body hover:-translate-y-1 ">
                 <a href="https://mtc-omega.vercel.app">VIEW LIVE SITE</a>
               </h3>
               <p className="px-4 pt-12 text-sm font-extrabold tracking-wide font-body md:text-lg lg:text-xl text-midtone">
