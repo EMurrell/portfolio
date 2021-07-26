@@ -10,7 +10,8 @@ export default function Meta() {
         name="description"
         content="Eric Murrell- Web Developer Portfolio"
       />
-      <meta name="image" content="/metapic.jpg" />
+      <meta property="og:image" content="/metapic.jpg" />
+      <meta name="twitter:image" content="/metapic.jpg" />
       <link rel="icon" href="/em2.png" />
 
       <link rel="preconnect" href="https://fonts.googleapis.com" />
