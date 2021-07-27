@@ -11,7 +11,7 @@ export default function Work() {
               <div className="flex justify-center pl-4 lg:pl-24">
                 <a href="/ptp">
                   <img
-                    src="ptp-thumb2.png"
+                    src="ptp-thumb.png"
                     alt="ptp case study"
                     height={700}
                     width={700}
@@ -35,7 +35,7 @@ export default function Work() {
               <div className="flex justify-center pl-4 lg:pl-24">
                 <a href="/mtc">
                   <img
-                    src="mtc-thumb2.png"
+                    src="mtc-thumb.png"
                     alt="mtc case study"
                     height={700}
                     width={700}
