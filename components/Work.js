@@ -11,7 +11,7 @@ export default function Work() {
               <div className="flex justify-center pl-4 lg:pl-24">
                 <a href="/ptp">
                   <img
-                    src="ptp-thumb.png"
+                    src="ptp-thumb2.png"
                     alt="ptp case study"
                     height={700}
                     width={700}
@@ -23,7 +23,7 @@ export default function Work() {
                   PUP TO PAL <br />
                 </h1>
                 <Link href="/ptp">
-                  <a className="pb-6 pl-4 text-sm font-extrabold tracking-wide underline transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-body text-myorange hover:text-myblue">
+                  <a className="pb-6 pl-4 text-sm font-semibold tracking-wide underline transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-body text-myorange hover:text-myblue">
                     VIEW CASE STUDY
                   </a>
                 </Link>
@@ -35,7 +35,7 @@ export default function Work() {
               <div className="flex justify-center pl-4 lg:pl-24">
                 <a href="/mtc">
                   <img
-                    src="mtc-thumb.png"
+                    src="mtc-thumb2.png"
                     alt="mtc case study"
                     height={700}
                     width={700}
@@ -48,7 +48,7 @@ export default function Work() {
                   TOUCH <br />
                 </h1>
                 <Link href="/mtc">
-                  <a className="pb-6 pl-4 text-sm font-extrabold tracking-wide underline transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-body text-myorange hover:text-myblue">
+                  <a className="pb-6 pl-4 text-sm font-semibold tracking-wide underline transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-body text-myorange hover:text-myblue">
                     VIEW CASE STUDY
                   </a>
                 </Link>

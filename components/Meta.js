@@ -15,13 +15,9 @@ export default function Meta() {
       <link rel="icon" href="/em2.png" />
 
       <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
       <link
-        rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossOrigin="true"
-      />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Syne:wght@400;500;600;700;800&display=swap"
         rel="stylesheet"
       />
     </Head>
