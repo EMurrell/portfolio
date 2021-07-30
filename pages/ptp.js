@@ -30,17 +30,19 @@ export default function About() {
               <h3 className="pl-4 text-base font-bold tracking-wider underline transition duration-500 ease-in-out transform md:text-xl text-myorange hover:text-myblue font-body hover:-translate-y-1">
                 <a href="https://puptopal.netlify.app">VIEW LIVE SITE</a>
               </h3>
-              <p className="px-4 pt-12 text-sm font-extrabold tracking-wide font-body md:text-lg lg:text-xl text-midtone">
+              <p className="px-4 pt-12 text-sm font-semibold tracking-wide font-body md:text-lg lg:text-xl text-midtone">
                 BRIEF: <br /> Design and develop a website for a new small
                 business, including photography and copy writing.
               </p>
-              <p className="px-4 py-12 text-sm font-extrabold tracking-wide font-body md:text-lg lg:text-xl text-midtone">
+              <p className="px-4 py-12 text-sm font-semibold tracking-wide font-body md:text-lg lg:text-xl text-midtone">
                 FRAMEWORKS / LIBRARIES: <br />
                 React/Next.js, Tailwind CSS and UI, HeadlessUI, Framer Motion.
               </p>
             </div>
             <div className="flex flex-col animate-fade-in-left">
-              <img src="/ptpcard.png" alt="website mockup" />
+              <a href="https://puptopal.netlify.app">
+                <img src="/ptpcard.png" alt="website mockup" />
+              </a>
             </div>
           </div>
         </div>
