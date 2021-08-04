@@ -11,7 +11,7 @@ export default function About() {
         <Meta />
 
         <div className="flex flex-row ">
-          <div className="w-1/6 h-screen border-r-2 border-myblack">
+          <div className="w-1/6 border-r-2 border-myblack">
             <Link href="/#Work">
               <a>
                 <ArrowCircleLeftIcon className="w-8 h-8 my-8 ml-4 text-myorange hover:text-myblue" />
@@ -34,7 +34,7 @@ export default function About() {
                 BRIEF: <br /> Design and develop a website for a new small
                 business, including photography and copy writing.
               </p>
-              <p className="px-4 py-12 text-sm font-semibold tracking-wide font-body md:text-lg lg:text-xl text-midtone">
+              <p className="px-4 py-6 text-sm font-semibold tracking-wide font-body md:text-lg lg:text-xl text-midtone">
                 FRAMEWORKS / LIBRARIES: <br />
                 React/Next.js, Tailwind CSS and UI, HeadlessUI, Framer Motion.
               </p>

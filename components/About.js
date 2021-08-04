@@ -40,7 +40,10 @@ export default function About() {
               HTML \ CSS \ JAVASCRIPT
             </p>
             <p className="pt-4 pl-4 text-sm font-semibold tracking-wider md:pt-6 font-body md:text-lg lg:text-xl text-midtone">
-              REACT \ NODE \ MONGO DB
+              REACT \ JSX
+            </p>
+            <p className="pt-4 pl-4 text-sm font-semibold tracking-wider md:pt-6 font-body md:text-lg lg:text-xl text-midtone">
+              NODE \ MONGO DB
             </p>
             <p className="pt-4 pl-4 text-sm font-semibold tracking-wider md:pt-6 font-body md:text-lg lg:text-xl text-midtone">
               NEXT.JS \ TAILWIND CSS \ FRAMER-MOTION

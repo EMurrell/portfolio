@@ -19,12 +19,17 @@ export default function Work() {
                 </a>
               </div>
               <div className="flex flex-col justify-center text-center lg:text-left">
-                <h1 className="py-2 pl-4 text-sm font-extrabold md:text-base text-mybeige font-headline">
+                <h1 className="py-4 pl-4 text-sm font-extrabold md:text-base text-mybeige font-headline">
                   PUP TO PAL <br />
                 </h1>
                 <Link href="/ptp">
-                  <a className="pb-6 pl-4 text-sm font-semibold tracking-wide underline transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-body text-myorange hover:text-myblue">
+                  <a className="pb-4 pl-4 text-sm font-semibold tracking-wide underline transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-body text-myorange hover:text-myblue">
                     VIEW CASE STUDY
+                  </a>
+                </Link>
+                <Link href="https://puptopal.netlify.app">
+                  <a className="pb-4 pl-4 text-sm font-semibold tracking-wide underline transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-body text-myorange hover:text-myblue">
+                    VIEW LIVE WEBSITE
                   </a>
                 </Link>
               </div>
@@ -43,13 +48,18 @@ export default function Work() {
                 </a>
               </div>
               <div className="flex flex-col justify-center text-center lg:text-left ">
-                <h1 className="py-2 pl-4 text-sm font-extrabold md:text-base text-mybeige font-headline">
+                <h1 className="py-4 pl-4 text-sm font-extrabold md:text-base text-mybeige font-headline">
                   MASON'S <br />
                   TOUCH <br />
                 </h1>
                 <Link href="/mtc">
-                  <a className="pb-6 pl-4 text-sm font-semibold tracking-wide underline transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-body text-myorange hover:text-myblue">
+                  <a className="pb-4 pl-4 text-sm font-semibold tracking-wide underline transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-body text-myorange hover:text-myblue">
                     VIEW CASE STUDY
+                  </a>
+                </Link>
+                <Link href="https://www.masonstouch.com">
+                  <a className="pb-12 pl-4 text-sm font-semibold tracking-wide underline transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-body text-myorange hover:text-myblue">
+                    VIEW LIVE WEBSITE
                   </a>
                 </Link>
               </div>

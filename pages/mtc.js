@@ -11,7 +11,7 @@ export default function About() {
         <Meta />
 
         <div className="flex flex-row ">
-          <div className="w-1/6 h-screen border-r-2 border-myblack">
+          <div className="w-1/6 border-r-2 border-myblack">
             <Link href="/#Work">
               <a>
                 <ArrowCircleLeftIcon className="w-8 h-8 my-8 ml-4 text-myorange hover:text-myblue" />
