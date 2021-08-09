@@ -43,10 +43,10 @@ export default function About() {
               REACT \ JSX
             </p>
             <p className="pt-4 pl-4 text-sm font-semibold tracking-wider md:pt-6 font-body md:text-lg lg:text-xl text-midtone">
-              NODE \ MONGO DB
+              NEXT.JS \ TAILWIND CSS \ FRAMER-MOTION
             </p>
             <p className="pt-4 pl-4 text-sm font-semibold tracking-wider md:pt-6 font-body md:text-lg lg:text-xl text-midtone">
-              NEXT.JS \ TAILWIND CSS \ FRAMER-MOTION
+              NODE \ MONGO DB
             </p>
             <p className="pt-4 pl-4 text-sm font-semibold tracking-wider md:pt-6 font-body md:text-lg lg:text-xl text-midtone">
               GITHUB \ VS CODE \ CLI

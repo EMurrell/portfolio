@@ -9,9 +9,9 @@ export default function Footer() {
     <footer className="flex items-center justify-center w-full h-28 botton-0 bg-myblack">
       <a
         href="/#"
-        className="text-xs text-center text-mybeige font-headline hover:text-myorange"
+        className="text-xs font-extrabold tracking-wider text-center text-mybeige font-headline hover:text-myorange"
       >
-        © {getCurrentYear()} EMurrell.com
+        © {getCurrentYear()} EMURRELL.com
         <br />
       </a>
     </footer>
