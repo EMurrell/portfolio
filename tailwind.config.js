@@ -7,7 +7,7 @@ module.exports = {
       colors: {
         mygreen: "#346751",
         myorange: "#E2654B",
-        mybeige: "#F2EDD7",
+        mybeige: "#f4ede4",
         midtone: "#4C4343",
         myblack: "#161616",
         myblue: "#9EBDD0",
@@ -70,7 +70,8 @@ module.exports = {
   },
   variants: {
     animation: ["motion-safe"],
-
+    // scrollSnapType: ["responsive"],
     extend: {},
   },
+  // plugins: [require("tailwindcss-scroll-snap")],
 };
