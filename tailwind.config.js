@@ -70,8 +70,7 @@ module.exports = {
   },
   variants: {
     animation: ["motion-safe"],
-    // scrollSnapType: ["responsive"],
+
     extend: {},
   },
-  // plugins: [require("tailwindcss-scroll-snap")],
 };

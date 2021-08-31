@@ -14,10 +14,10 @@ export default function Main1() {
           <h2 className="flex pl-4 pr-4 text-xl d text-midtone md:text-4xl font-headline lg:text-5xl animate-fade-in-right">
             IS
           </h2>
-          <h1 className="flex pl-4 pr-4 text-xl md:text-4xl lg:text-5xl font-headline animate-fade-in-left text-mybeige">
+          <h1 className="flex pl-4 pr-4 text-xl md:text-4xl lg:text-5xl font-headline animate-fade-in-right text-mybeige">
             ERIC
           </h1>
-          <h1 className="flex pl-4 pr-4 text-xl md:text-4xl lg:text-5xl font-headline animate-fade-in-left text-mybeige">
+          <h1 className="flex pl-4 pr-4 text-xl md:text-4xl lg:text-5xl font-headline animate-fade-in-right text-mybeige">
             MURRELL
           </h1>
           <h2 className="flex pl-4 pr-4 text-xl md:text-4xl font-headline lg:text-5xl animate-fade-in-right text-midtone">
@@ -26,10 +26,10 @@ export default function Main1() {
           <h2 className="flex pl-4 pr-4 text-xl md:text-4xl font-headline lg:text-5xl animate-fade-in-right text-midtone">
             FULL STACK
           </h2>
-          <h1 className="flex pl-4 pr-4 text-xl md:text-4xl font-headline lg:text-5xl animate-fade-in-left text-mybeige">
+          <h1 className="flex pl-4 pr-4 text-xl md:text-4xl font-headline lg:text-5xl animate-fade-in-right text-mybeige">
             WEB
           </h1>
-          <h1 className="flex pl-4 pr-4 text-xl md:text-4xl font-headline lg:text-5xl animate-fade-in-left text-mybeige">
+          <h1 className="flex pl-4 pr-4 text-xl md:text-4xl font-headline lg:text-5xl animate-fade-in-right text-mybeige">
             DEVELOPER
           </h1>
 
